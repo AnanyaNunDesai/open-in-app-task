@@ -1,19 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background-rgb: 248, 250, 255;
-  --blue-start-rgb: 66, 133, 244;
-  --blue-end-rgb: 40, 109, 224;
-}
-
-body {
-  background-image: linear-gradient(
-    100deg,
-    rgba(var(--blue-start-rgb)) 0%,
-    rgba(var(--blue-end-rgb)) 50%,
-    rgba(var(--background-rgb)) 50%,
-    rgba(var(--background-rgb)) 100%
-  );
-}

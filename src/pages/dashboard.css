@@ -1,0 +1,15 @@
+.navi {
+  background-image: linear-gradient(to right, #4285f4 50%, #3c83f9 100%);
+}
+
+.profile-button {
+  background-image: linear-gradient(to right, #ebebeb 50%, #f5f5f5 100%);
+}
+
+.total-box {
+  min-width: 23%;
+}
+
+.misc-row {
+  min-width: 45%;
+}

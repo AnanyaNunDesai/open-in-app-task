@@ -1,8 +1,11 @@
 {
   "name": "replica-proj",
+  "homepage": "https://ananyanundesai.github.io/open-in-app-task",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,5 +22,8 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
